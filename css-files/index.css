@@ -1,0 +1,20 @@
+.iframe-box 
+{
+    width: 100%;
+    height: 8%;
+}
+.demo-info{
+	margin-bottom: 10px;
+}
+.easyui-tabs{
+	width: 400px;
+	height: 270px;
+}
+.hot-topics-iframe{
+	width: 90%;
+	height: 90%;
+}
+.posting-div-style{
+	width: 100px;
+	height: 100px;	
+}
