@@ -17,6 +17,7 @@
 	src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
 <script type="text/javascript"
 	src="http://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
+
 <script type="text/javascript" src="js-files/index.js"></script>
 </head>
 <body>
@@ -27,41 +28,26 @@
 	<hr color="blue">
 	<div class="demo-info">
 		<div class="demo-tip icon-tip"></div>
-		<div>EXPLORER</div>
+		<div>
+			<a href="http://100widgets.com" style=" color:#6D9F00; text-decoration:none;" class="printfriendly" onclick="window.print(); return false;" title="Printer Friendly and PDF"><img style="border:none;" src="http://cdn.printfriendly.com/pf-button-both.gif" alt="Print Friendly and PDF"></a>
+		</div>
+		<div id="menu-m0-div" class="menu-m0-display">
+			hello
+		</div>
 	</div>
 
 	<table style="width: 100%;">
 		<tr>
 			<td align="left">
-				<div id="main-display-iframe" class="easyui-tabs">
+				<div id="main-display-iframe" class="easyui-l1-display">
 					<iframe class="hot-topics-iframe" src="accordion.html"></iframe>
 				</div>
 			</td>
 			<td align="left">
-				<div id="hot-topics-tabs" class="easyui-tabs">
-					<div title="accordion" style="padding: 20px;">
-						<iframe class="hot-topics-iframe" src="accordion.html"></iframe>
-					</div>
-					<div title="simplemenu" style="padding: 20px;">
-						<iframe class="hot-topics-iframe" src="simplemenu.html"></iframe>
-					</div>
-					<div title="menubutton" style="padding: 20px;">
-						<iframe class="hot-topics-iframe" src="menubutton.html"></iframe>
-					</div>
-					<div title="splitbutton" style="padding: 20px;">
-						<iframe class="hot-topics-iframe" src="splitbutton.html"></iframe>
-					</div>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2" align="center">
-				<div id="posting-div" class="posting-div-style">
-				<hr color="green">
-				<hr color="blue" >
-				
-					SCREEN!!!!!
+				<div id="main-display-iframe" class="easyui-l2-display">
+					<iframe class="hot-topics-iframe" src="http://javaforsuccess.blogspot.in/"></iframe>
 				</div>
-			<td>
+			</td>
 		</tr>
 	</table>
 
