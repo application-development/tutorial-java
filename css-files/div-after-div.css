@@ -1,0 +1,67 @@
+body {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+#roof {
+padding: 0px;
+height: 250px;
+width: 1000px;
+margin-right: 0px;
+margin-left: 0px;
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+}
+#wall {
+padding: 0px;
+height: 500px;
+width: 1000px;
+margin-right: 0px;
+margin-left: 0px;
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+}
+#floor {
+padding: 0px;
+height: 250px;
+width: 1000px;
+margin-right: 0px;
+margin-left: 0px;
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+}
+#sidewall1 {
+    float:left;
+    width:250px;
+    height:500px;
+
+}
+#sidewall2 {
+    float:left;
+    width:250px;
+    height: 500px;
+}
+#center {
+    float:left;
+    width:250px;
+    height: 500px;
+}
